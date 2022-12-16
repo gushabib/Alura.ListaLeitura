@@ -33,7 +33,8 @@ namespace Alura.ListaLeitura.App
 
             }
             
-            return context.Response.WriteAsync("caminho inexistente");
+            context.Response.StatusCode = 404;
+            return context.Response.WriteAsync("Caminho inexistente.");
         }
 
         public Task LivrosParaLer(HttpContext context)
