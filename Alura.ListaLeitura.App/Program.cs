@@ -1,4 +1,5 @@
-﻿using Alura.ListaLeitura.App.Negocio;
+﻿using Alura.ListaLeitura.App.Logica;
+using Alura.ListaLeitura.App.Negocio;
 using Alura.ListaLeitura.App.Repositorio;
 using Microsoft.AspNetCore.Hosting;
 using System;
